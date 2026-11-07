@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" fill="none" role="img" aria-labelledby="socialTitle socialDesc">
+  <title id="socialTitle">TokenForge — Forge once. Run forever.</title>
+  <desc id="socialDesc">TokenForge social preview: tested Python handles for repeatable agent work.</desc>
+
+  <defs>
+    <linearGradient id="brand" x1="80" y1="220" x2="760" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcd34d"/>
+      <stop offset="0.52" stop-color="#f97316"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="960" y1="120" x2="1120" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a5f3fc"/>
+      <stop offset="0.55" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="960" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.45" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <radialGradient id="amberGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#f97316" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.46" r="0.8">
+      <stop offset="0.58" stop-color="#07070b" stop-opacity="0"/>
+      <stop offset="1" stop-color="#07070b" stop-opacity="0.7"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="#07070b"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <circle cx="1040" cy="320" r="340" fill="url(#amberGlow)"/>
+  <circle cx="120" cy="620" r="280" fill="url(#cyanGlow)"/>
+  <rect width="1280" height="640" fill="url(#vignette)"/>
+
+  <!-- Brand mark -->
+  <g transform="translate(80 64)">
+    <path d="M13 0 26 7.5v15L13 30 0 22.5v-15z" fill="#f59e0b" fill-opacity="0.08" stroke="#f59e0b" stroke-width="1.6"/>
+    <path d="M13 7.5 19.5 11.25v7.5L13 22.5 6.5 18.75v-7.5z" fill="#fbbf24" fill-opacity="0.35"/>
+    <circle cx="13" cy="15" r="1.8" fill="#fde68a"/>
+    <text x="42" y="20" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="12" font-weight="700" letter-spacing="4" fill="#a1a1aa">TOKENFORGE / 1.0</text>
+  </g>
+  <text x="1200" y="84" text-anchor="end" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="11" letter-spacing="3" fill="#52525b">OPEN SOURCE · MIT</text>
+
+  <!-- Headline -->
+  <text x="80" y="318" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="112" font-weight="800" letter-spacing="-4.5" fill="url(#brand)">TokenForge</text>
+  <text x="84" y="386" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="22" font-weight="700" letter-spacing="7" fill="#e4e4e7">FORGE ONCE. RUN FOREVER.</text>
+  <text x="84" y="428" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="18" fill="#a1a1aa">Tested Python handles for repeatable agent work.</text>
+
+  <!-- Code badge -->
+  <circle cx="1046" cy="172" r="76" fill="none" stroke="#22d3ee" stroke-opacity="0.16" stroke-dasharray="3 8"/>
+  <circle cx="1046" cy="172" r="62" fill="#0b0b12" stroke="url(#cyan)" stroke-width="2"/>
+  <text x="1046" y="189" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="42" font-weight="700" fill="url(#cyan)">&lt;/&gt;</text>
+
+  <!-- Anvil -->
+  <ellipse cx="1046" cy="512" rx="196" ry="22" fill="#000000" fill-opacity="0.55"/>
+  <ellipse cx="1046" cy="500" rx="214" ry="32" fill="#f59e0b" fill-opacity="0.13" filter="url(#soft)"/>
+
+  <path d="M944 354 878 370q-8 3 0 8l66 11z" fill="#1b1b23" stroke="#f59e0b" stroke-opacity="0.45" stroke-width="1.2"/>
+  <path d="M944 352h196q15 0 15 15v11q0 11-15 11H944z" fill="#1f1f27" stroke="#3f3f46" stroke-width="1.2"/>
+  <rect x="944" y="352" width="211" height="6.5" rx="3.2" fill="url(#brand)" opacity="0.9"/>
+  <path d="M1000 389h96l-16 64h-64z" fill="#18181f" stroke="#3f3f46" stroke-width="1.2"/>
+  <path d="M970 453h156l13 29h-182z" fill="#1f1f27" stroke="#3f3f46" stroke-width="1.2"/>
+  <rect x="958" y="479" width="180" height="3.5" rx="1.7" fill="#f59e0b" fill-opacity="0.35"/>
+
+  <!-- Hot metal -->
+  <rect x="978" y="338" width="132" height="11" rx="5.5" fill="url(#hot)" filter="url(#glow)"/>
+
+  <!-- Sparks -->
+  <g stroke-linecap="round">
+    <path d="M1046 328v-40" stroke="#fbbf24" stroke-width="2" opacity="0.9"/>
+    <path d="M1021 334l-23-30" stroke="#f59e0b" stroke-width="1.6" opacity="0.7"/>
+    <path d="M1071 334l23-30" stroke="#f59e0b" stroke-width="1.6" opacity="0.7"/>
+    <path d="M999 341l-34-16" stroke="#fbbf24" stroke-width="1.4" opacity="0.55"/>
+    <path d="M1093 341l34-16" stroke="#fbbf24" stroke-width="1.4" opacity="0.55"/>
+  </g>
+  <g fill="#67e8f9">
+    <circle cx="1066" cy="290" r="2.2"/>
+    <circle cx="1012" cy="306" r="1.8"/>
+    <circle cx="1082" cy="312" r="1.6"/>
+    <circle cx="990" cy="324" r="1.4"/>
+    <circle cx="1122" cy="326" r="1.8"/>
+  </g>
+  <g fill="#fde68a">
+    <circle cx="1036" cy="280" r="1.6"/>
+    <circle cx="1098" cy="300" r="1.4"/>
+    <circle cx="970" cy="314" r="1.5"/>
+  </g>
+
+  <!-- Footer -->
+  <text x="80" y="556" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="18" font-weight="600" fill="#67e8f9">github.com/fabianmelomaciel/TokenForge</text>
+  <text x="80" y="588" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="12" letter-spacing="1.6" fill="#3f3f46">MIT · PYTHON 3.8+ · ZERO DEPENDENCIES</text>
+</svg>
